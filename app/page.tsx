@@ -4,7 +4,7 @@ import Hero from "@/components/hero/Hero";
 import { NavItemsType } from "@/types/Types";
 import { FaHome } from "react-icons/fa";
 
-export const navItemsData: Array<NavItemsType> = [
+const navItemsData: Array<NavItemsType> = [
   { name: "Home", link: "/", icon: <FaHome /> },
 ];
 
