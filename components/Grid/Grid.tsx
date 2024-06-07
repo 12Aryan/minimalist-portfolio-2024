@@ -9,7 +9,7 @@ const Grid = () => {
       <BentoGrid>
         {gridItemsData &&
           gridItemsData?.length > 0 &&
-          gridItemsData?.map((item: GridItemType) => (
+          gridItemsData?.map((item: any) => (
             <BentoGridItem
               id={item?.id}
               key={item?.id}
