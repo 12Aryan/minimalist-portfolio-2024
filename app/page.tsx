@@ -6,6 +6,8 @@ import { FaHome } from "react-icons/fa";
 
 const navItemsData: Array<NavItemsType> = [
   { name: "Home", link: "/", icon: <FaHome /> },
+  { name: "About", link: "/", icon: <FaHome /> },
+  { name: "Projects", link: "/", icon: <FaHome /> },
 ];
 
 export default function Home() {
