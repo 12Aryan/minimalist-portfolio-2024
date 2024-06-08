@@ -1,13 +1,22 @@
-import { GridItemType } from "@/types/Types";
+// data.ts
+import {
+  GridItemType,
+  ProjectType,
+  TestimonialType,
+  CompanyType,
+  WorkExperienceType,
+  SocialMediaType,
+  NavItemType,
+} from "@/types/Types";
 
-export const navItems = [
+export const navItems: NavItemType[] = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
-export const gridItemsData = [
+export const gridItemsData: GridItemType[] = [
   {
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
@@ -48,7 +57,6 @@ export const gridItemsData = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title: "Currently building a JS Animation library",
@@ -71,7 +79,7 @@ export const gridItemsData = [
   },
 ];
 
-export const projects = [
+export const projects: ProjectType[] = [
   {
     id: 1,
     title: "3D Solar System Planets to Explore",
@@ -106,7 +114,7 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const testimonials: TestimonialType[] = [
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
@@ -139,7 +147,7 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
+export const companies: CompanyType[] = [
   {
     id: 1,
     name: "cloudinary",
@@ -172,7 +180,7 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const workExperience: WorkExperienceType[] = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
@@ -203,7 +211,7 @@ export const workExperience = [
   },
 ];
 
-export const socialMedia = [
+export const socialMedia: SocialMediaType[] = [
   {
     id: 1,
     img: "/git.svg",
