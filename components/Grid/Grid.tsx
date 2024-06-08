@@ -1,20 +1,25 @@
-import React from "react";
 import { BentoGrid, BentoGridItem } from "../BentoGrid/BentoGrid";
 import { gridItemsData } from "@/data";
-import { GridItemType } from "@/types/Types";
 
 const Grid = () => {
   return (
     <section id="about">
-      <BentoGrid>
+      <BentoGrid className="w-full py-20">
         {gridItemsData &&
           gridItemsData?.length > 0 &&
-          gridItemsData?.map((item: any) => (
+          gridItemsData?.map((item: any, i: number) => (
             <BentoGridItem
-              id={item?.id}
-              key={item?.id}
-              title={item?.title}
-              description={item?.description}
+              id={item.id}
+              key={i}
+              title={item.title}
+              description={item.description}
+              // remove icon prop
+              // remove original classname condition
+              className={item.className}
+              img={item.img}
+              imgClassName={item.imgClassName}
+              titleClassName={item.titleClassName}
+              spareImg={item.spareImg}
             />
           ))}
       </BentoGrid>
