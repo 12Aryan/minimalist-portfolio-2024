@@ -1,6 +1,5 @@
 // data.ts
 import {
-  
   GridItemType,
   ProjectType,
   TestimonialType,
@@ -79,6 +78,14 @@ export const gridItemsData: GridItemType[] = [
     spareImg: "",
   },
 ];
+
+export const techStack: Array<string> = ["React.js", "Redux", "Next.js"];
+export const techStackTwo: Array<string> = [
+  "Javascript",
+  "Typescript",
+  "tailwind",
+];
+export const techStackThree: Array<string> = ["Html", "CSS", "SASS"];
 
 export const projects: ProjectType[] = [
   {
