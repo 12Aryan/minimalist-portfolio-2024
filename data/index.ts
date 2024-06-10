@@ -10,6 +10,7 @@ import {
 } from "@/types/Types";
 
 export const navItems: NavItemType[] = [
+  { name: "Home", link: "/" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },

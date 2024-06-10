@@ -1,6 +1,6 @@
 import { projects } from "@/data";
 import React from "react";
-import { PinContainer } from "../3d-pin/Card3dPin";
+import { PinContainer } from "../../components/3d-pin/Card3dPin";
 import { transform } from "next/dist/build/swc";
 import { FaLocationArrow } from "react-icons/fa";
 

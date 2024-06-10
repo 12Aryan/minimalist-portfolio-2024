@@ -1,8 +1,8 @@
 import React from "react";
-import { Spotlight } from "../spotlight/Spotlight";
-import BackgroundGrid from "../background-grid/BackgroundGrid";
-import { TextGenerateEffect } from "../text-generate-effect/TextGenerateEffect";
-import MagicButton from "../magic-button/MagicButton";
+import { Spotlight } from "../../components/spotlight/Spotlight";
+import BackgroundGrid from "../../components/background-grid/BackgroundGrid";
+import { TextGenerateEffect } from "../../components/text-generate-effect/TextGenerateEffect";
+import MagicButton from "../../components/magic-button/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
               words="Transforming Concepts Into Seamless User Experiences"
             />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">{`Hey there! I'm Aryan, a Frontend Web Developer based in India  `}</p>
-            <a href="#about">
+            <a href="#projects">
               <MagicButton
                 title="Show my work"
                 rightIcon={<FaLocationArrow />}

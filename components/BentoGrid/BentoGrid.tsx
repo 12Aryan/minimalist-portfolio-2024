@@ -63,6 +63,9 @@ export const BentoGridItem = ({
     const email: string = "aryanpidiha.dev@gmail.com";
     navigator.clipboard.writeText(email);
     setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000);
   };
 
   return (
