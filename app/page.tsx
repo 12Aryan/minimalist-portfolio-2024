@@ -1,16 +1,11 @@
 "use client";
-<<<<<<< Updated upstream
-=======
 import Grid from "@/components/Grid/Grid";
 import Testimonials from "@/components/Testimonials/Testimonials";
-import Experience from "@/components/experience/Experience";
->>>>>>> Stashed changes
 import { FloatingNav } from "@/components/floating-nav/FloatingNav";
 import { navItems } from "@/data";
 import Hero from "@/features/hero/Hero";
 import About from "@/features/about/About";
 import RecentProjects from "@/features/recent-projects/RecentProjects";
-import Testimonials from "@/features/Testimonials/Testimonials";
 import Experience from "@/features/experience/Experience";
 
 export default function Home() {
@@ -22,11 +17,7 @@ export default function Home() {
         <About />
         <RecentProjects />
         <Testimonials />
-<<<<<<< Updated upstream
-        {/* <Experience /> */}
-=======
         <Experience />
->>>>>>> Stashed changes
       </div>
     </main>
   );
