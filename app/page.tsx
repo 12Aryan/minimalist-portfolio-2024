@@ -5,6 +5,7 @@ import Hero from "@/features/hero/Hero";
 import About from "@/features/about/About";
 import RecentProjects from "@/features/recent-projects/RecentProjects";
 import Testimonials from "@/features/Testimonials/Testimonials";
+import Experience from "@/features/experience/Experience";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <About />
         <RecentProjects />
         <Testimonials />
+        {/* <Experience /> */}
       </div>
     </main>
   );
