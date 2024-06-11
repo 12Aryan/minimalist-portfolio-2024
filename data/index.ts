@@ -223,13 +223,16 @@ export const socialMedia: SocialMediaType[] = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/12Aryan",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/dozing_dev",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/aryan-pidiha-1774021b6/",
   },
 ];

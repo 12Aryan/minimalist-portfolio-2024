@@ -48,4 +48,5 @@ export type WorkExperienceType = {
 export type SocialMediaType = {
   id: number;
   img: string;
+  url: string;
 };

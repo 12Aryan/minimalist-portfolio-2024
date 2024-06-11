@@ -4,11 +4,22 @@ import Grid from "@/components/Grid/Grid";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Experience from "@/components/experience/Experience";
 import { FloatingNav } from "@/components/floating-nav/FloatingNav";
+import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import RecentProjects from "@/components/recent-projects/RecentProjects";
-import { navItems } from "@/data";
+// import { navItems } from "@/data";
 
-import { FaHome } from "react-icons/fa";
+import { FaCommentAlt, FaHome } from "react-icons/fa";
+import { FaUser } from "react-icons/fa6";
+import { GrProjects } from "react-icons/gr";
+import { MdConnectWithoutContact } from "react-icons/md";
+
+export const navItems = [
+  { name: "About", link: "#about", icon: <FaUser /> },
+  { name: "Projects", link: "#projects", icon: <GrProjects /> },
+  { name: "Testimonials", link: "#testimonials", icon: <FaCommentAlt /> },
+  { name: "Contact", link: "#contact", icon: <MdConnectWithoutContact /> },
+];
 
 export default function Home() {
   return (
@@ -21,6 +32,7 @@ export default function Home() {
         <Testimonials />
         <Experience />
         <Approach />
+        <Footer />
       </div>
     </main>
   );
