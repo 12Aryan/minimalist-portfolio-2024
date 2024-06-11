@@ -1,5 +1,7 @@
 "use client";
 import Grid from "@/components/Grid/Grid";
+import Testimonials from "@/components/Testimonials/Testimonials";
+import Experience from "@/components/experience/Experience";
 import { FloatingNav } from "@/components/floating-nav/FloatingNav";
 import Hero from "@/components/hero/Hero";
 import RecentProjects from "@/components/recent-projects/RecentProjects";
@@ -15,6 +17,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Testimonials />
+        <Experience />
       </div>
     </main>
   );
