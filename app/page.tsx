@@ -1,13 +1,13 @@
 "use client";
 import Grid from "@/components/Grid/Grid";
 import Testimonials from "@/components/Testimonials/Testimonials";
-import { FloatingNav } from "@/components/floating-nav/FloatingNav";
-import { navItems } from "@/data";
-import Hero from "@/features/hero/Hero";
-import About from "@/features/about/About";
-import RecentProjects from "@/features/recent-projects/RecentProjects";
 import Experience from "@/components/experience/Experience";
+import { FloatingNav } from "@/components/floating-nav/FloatingNav";
+import Hero from "@/components/hero/Hero";
+import RecentProjects from "@/components/recent-projects/RecentProjects";
+import { navItems } from "@/data";
 
+import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} className="" />
         <Hero />
-        <About />
+        <Grid />
         <RecentProjects />
         <Testimonials />
         <Experience />
