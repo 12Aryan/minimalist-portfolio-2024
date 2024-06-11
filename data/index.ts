@@ -39,7 +39,7 @@ export const gridItemsData: GridItemType[] = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My toolbox includes",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
