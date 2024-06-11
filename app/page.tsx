@@ -14,7 +14,7 @@ import { FaUser } from "react-icons/fa6";
 import { GrProjects } from "react-icons/gr";
 import { MdConnectWithoutContact } from "react-icons/md";
 
-export const navItems = [
+const navItems = [
   { name: "About", link: "#about", icon: <FaUser /> },
   { name: "Projects", link: "#projects", icon: <GrProjects /> },
   { name: "Testimonials", link: "#testimonials", icon: <FaCommentAlt /> },
