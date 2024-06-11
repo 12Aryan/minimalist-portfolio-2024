@@ -6,7 +6,8 @@ import { navItems } from "@/data";
 import Hero from "@/features/hero/Hero";
 import About from "@/features/about/About";
 import RecentProjects from "@/features/recent-projects/RecentProjects";
-import Experience from "@/features/experience/Experience";
+import Experience from "@/components/experience/Experience";
+
 
 export default function Home() {
   return (

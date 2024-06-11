@@ -6,7 +6,7 @@ const Testimonials = () => {
   return (
     <div className="py-20" id="testimonials">
       <h1 className="heading">
-        Kind words from <span className="text-purple">fake clients</span>
+        Kind words from <span className="text-purple">some colleagues</span>
       </h1>
       <div className="flex flex-wrap items-center ">
         <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden">
