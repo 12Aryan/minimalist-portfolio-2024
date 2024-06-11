@@ -4,9 +4,9 @@ import { InfiniteMovingCards } from "../infinite-moving-cards/InfiniteMovingCard
 
 const Testimonials = () => {
   return (
-    <div className="py-20" id="testimonials">
+    <div className="pt-20" id="testimonials">
       <h1 className="heading">
-        Kind words from <span className="text-purple">some colleagues</span>
+        What my <span className="text-purple">peers say</span>
       </h1>
       <div className="flex flex-wrap items-center ">
         <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden">
@@ -15,7 +15,7 @@ const Testimonials = () => {
             direction="right"
             speed="slow"
           />
-          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
+          {/* <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
             {companies.map((company) => (
               <React.Fragment key={company.id}>
                 <div className="flex md:max-w-60 max-w-32 gap-2">
@@ -23,6 +23,7 @@ const Testimonials = () => {
                     src={company.img}
                     alt={company.name}
                     className="md:w-10 w-5"
+                    style={{ width: "250px", height: "250px" }}
                   />
                   <img
                     src={company.nameImg}
@@ -33,7 +34,7 @@ const Testimonials = () => {
                 </div>
               </React.Fragment>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

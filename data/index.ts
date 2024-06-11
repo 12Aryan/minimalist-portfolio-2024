@@ -125,66 +125,42 @@ export const projects: ProjectType[] = [
 export const testimonials: TestimonialType[] = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've worked closely with Aryan for a very long time and know him well. He has a strong curiosity about technologies and excels at diving deep into concepts. He can break down problems into manageable pieces and write code accordingly. His debugging and feature-building skills are exceptional. Beyond his technical abilities, his communication skills are commendable, making him a complete package.",
+    name: "Mahak Pandey",
+    title: "Front-end Web Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've worked with Aryan in one of my recent projects talking about his skills he has got a good grip over frontend technologies like react redux typescript. He can understand the business perspective and think of a solution considering business perspective",
+    name: "Sachin Patel",
+    title: "Sr. Fullstack developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Aryan sir is really dedicated to his team. When there's a tough problem, he takes charge and works hard to solve it. He spends time finding solutions, making sure the project goes well. Personally, when I have problems, he helps me out a lot.",
+    name: "Krishna Rathod",
+    title: "Front end Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Aryan sir positive attitude and willingness to collaborate make him a pleasure to work with. He approaches challenges with a can-do attitude and is always ready to lend a helping hand to his teammates.",
+    name: "Aditya Pandey",
+    title: "Backend developer ",
   },
 ];
 
 export const companies: CompanyType[] = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Infosys",
+    img: "/Infosys_logo.png",
+    nameImg: "/Infosys_logo.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Siya",
+    img: "/siya_logo.png",
+    nameImg: "/siya_logo.png",
   },
 ];
 
