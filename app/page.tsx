@@ -15,6 +15,7 @@ import { GrProjects } from "react-icons/gr";
 import { MdConnectWithoutContact } from "react-icons/md";
 
 const navItems = [
+  { name: "Home", link: "/", icon: <FaHome /> },
   { name: "About", link: "#about", icon: <FaUser /> },
   { name: "Projects", link: "#projects", icon: <GrProjects /> },
   { name: "Testimonials", link: "#testimonials", icon: <FaCommentAlt /> },
